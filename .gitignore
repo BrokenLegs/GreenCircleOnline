@@ -37,4 +37,4 @@ publish
 .idea
 
 # files
-core/bundles/oneauth/config/api.php
+/core/bundles/oneauth/config/api.php
