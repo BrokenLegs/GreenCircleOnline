@@ -41,13 +41,12 @@ return array(
 
 
 		'facebook' => array(
-//sdufhbsdufsdhjgfjhb
+
 			'id'     => '333777766723271',
 
 			'secret' => 'f00b0366a16c8dbe1f2b01868f775b1e',
 
 			'scope'  => '',
-			// 'redirect_uri' => 'http://www.greencircle.se/home/rate',
 
 		),
 
