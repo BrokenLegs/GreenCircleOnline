@@ -69,10 +69,10 @@ return array(
 
 		'mysql' => array(
 			'driver'   => 'mysql',
-			'host'     => 'greencircle.se.mysql',
-			'database' => 'greencircle_se',
-			'username' => 'greencircle_se',
-			'password' => 'trancelover1',
+			'host'     => 'localhost',
+			'database' => 'learning-laravel',
+			'username' => 'root',
+			'password' => '',
 			'charset'  => 'utf8',
 			'prefix'   => '',
 		),

@@ -4,7 +4,7 @@
 #greencircle{float: right; font-size: 77px;}
 .header{padding-right: 50px; margin-top: 0px;}
 .container{background-color:}
-.content{background-color: #fff; border:1px solid black; border-radius: 3px; overflow: hidden; margin-bottom: 100px; padding-bottom: 30px;}
+.content{background-color: #fff;overflow: hidden; margin-bottom: 100px; padding-bottom: 30px;}
 .price{float: right; margin-right: 5px;}
 #menu ul{margin-bottom: 40px;}
 .dailydish{margin-bottom: 10px;}
