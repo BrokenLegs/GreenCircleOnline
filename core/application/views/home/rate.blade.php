@@ -38,7 +38,7 @@
 							{{ Form::radio('myvote', 7,'', array('class'=>'star')); }}
 							{{ Form::radio('myvote', 8,'', array('class'=>'star')); }}
 							{{ Form::radio('myvote', 9,'', array('class'=>'star')); }}
-							{{ Form::radio('myvote', 10,'checked', array('class'=>'star'));}}
+							{{ Form::radio('myvote', 10,'', array('class'=>'star'));}}
 							<span class="votevalue">-/10</span>
 							{{Form::submit('Betygsätt', array('class' => 'btn send'))}}
 					@else 
@@ -57,7 +57,7 @@
 					{{ Form::close() }}
 
 				</div><br>
-				<span class="ratestats">Snitt {{ round($average, 1) }}/10 av {{ $count }}st röster</span>
+				<p class="ratestats">Snitt {{ round($average, 1) }}/10 av {{ $count }}st röster</p>
 			</div>
 		</div>
 		<div class="offset1 span7">
